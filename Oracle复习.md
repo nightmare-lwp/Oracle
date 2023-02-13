@@ -227,6 +227,104 @@ dbms_output.new_line  换行并把缓存里的输出，本身不能输出东西
 
 ![QQ截图20230213205949](Oracle复习.assets/QQ截图20230213205949.png)
 
+## 3.方案对象，DDL，DML
+
+### 方案对象
+
+![image-20230213211509950](Oracle复习.assets/image-20230213211509950.png)
+
+![image-20230213211908027](Oracle复习.assets/image-20230213211908027.png)
+
+![image-20230213211929521](Oracle复习.assets/image-20230213211929521.png)
+
+
+
+考不到那么难
+
+### DDL
+
+![image-20230213212349873](Oracle复习.assets/image-20230213212349873.png)
+
+#### 建表
+
+![image-20230213212818521](Oracle复习.assets/image-20230213212818521.png)
+
+#### 使用子查询建表
+
+![image-20230213212852698](Oracle复习.assets/image-20230213212852698.png)
+
+#### 更改表
+
+![image-20230213213006717](Oracle复习.assets/image-20230213213006717.png)
+
+#### 删除表
+
+![image-20230213213207850](Oracle复习.assets/image-20230213213207850.png)
+
+#### 改变表名称
+
+![image-20230213213247464](Oracle复习.assets/image-20230213213247464.png)
+
+#### 截断表
+
+truncate
+
+![image-20230213213338127](Oracle复习.assets/image-20230213213338127.png)
+
+#### 增加注释
+
+![image-20230213213416425](Oracle复习.assets/image-20230213213416425.png)
+
+#### 创建和管理约束
+
+![image-20230213213536633](Oracle复习.assets/image-20230213213536633.png)
+
+##### 定义约束
+
+![image-20230213213625978](Oracle复习.assets/image-20230213213625978.png)
+
+两种约束：列约束和表约束
+
+constraint
+
+![image-20230213213718544](Oracle复习.assets/image-20230213213718544.png)
+
+##### 非空约束
+
+![image-20230213214001243](Oracle复习.assets/image-20230213214001243.png)
+
+##### 唯一码约束
+
+![image-20230213214027883](Oracle复习.assets/image-20230213214027883.png)
+
+##### 主键约束
+
+![image-20230213214101420](Oracle复习.assets/image-20230213214101420.png)
+
+##### 外键约束
+
+![image-20230213214557667](Oracle复习.assets/image-20230213214557667.png)
+
+##### CHECK约束
+
+![image-20230213215118917](Oracle复习.assets/image-20230213215118917.png)
+
+##### 增加约束
+
+![image-20230213215313097](Oracle复习.assets/image-20230213215313097.png)
+
+##### 删除约束
+
+![image-20230213215408289](Oracle复习.assets/image-20230213215408289.png)
+
+##### 禁用约束
+
+![image-20230213215454327](Oracle复习.assets/image-20230213215454327.png)
+
+## 4.查询设计
+
+见单选题
+
 ## 5.PLSQL程序设计
 
 ### 数据类型和变量
@@ -300,3 +398,171 @@ case结构
 ![image-20230213204530032](Oracle复习.assets/image-20230213204530032.png)
 
 ![image-20230213204541612](Oracle复习.assets/image-20230213204541612.png)
+
+### 游标Cursors
+
+#### 隐式游标
+
+![image-20230213220353533](Oracle复习.assets/image-20230213220353533.png)
+
+![image-20230213220415913](Oracle复习.assets/image-20230213220415913.png)
+
+应该用不上
+
+#### 显式游标
+
+![image-20230213220542776](Oracle复习.assets/image-20230213220542776.png)
+
+##### 处理流程
+
+![image-20230213220602362](Oracle复习.assets/image-20230213220602362.png)
+
+##### 声明游标
+
+![image-20230213220654299](Oracle复习.assets/image-20230213220654299.png)
+
+![image-20230213220721206](Oracle复习.assets/image-20230213220721206.png)
+
+##### 打开游标
+
+![image-20230213220750645](Oracle复习.assets/image-20230213220750645.png)
+
+##### 从游标中提取数据
+
+![image-20230213220811365](Oracle复习.assets/image-20230213220811365.png)
+
+##### 关闭游标
+
+![image-20230213221012350](Oracle复习.assets/image-20230213221012350.png)
+
+##### 显示游标的属性
+
+![image-20230213221031744](Oracle复习.assets/image-20230213221031744.png)
+
+##### 游标提取控制
+
+![image-20230213221636467](Oracle复习.assets/image-20230213221636467.png)
+
+###### 游标提取FOR LOOP
+
+![image-20230213221708096](Oracle复习.assets/image-20230213221708096.png)
+
+![image-20230213221731778](Oracle复习.assets/image-20230213221731778.png)
+
+![image-20230213221744983](Oracle复习.assets/image-20230213221744983.png)
+
+高级
+
+##### 带参数的游标
+
+![image-20230213221811390](Oracle复习.assets/image-20230213221811390.png)
+
+更高级，没用过
+
+### 异常Exception
+
+#### 异常处理语法
+
+![image-20230213221952251](Oracle复习.assets/image-20230213221952251.png)
+
+#### 捕获异常规则
+
+![image-20230213222017902](Oracle复习.assets/image-20230213222017902.png)
+
+#### 异常的类型
+
+![image-20230213222100005](Oracle复习.assets/image-20230213222100005.png)
+
+##### 系统预定义异常
+
+![image-20230213222135405](Oracle复习.assets/image-20230213222135405.png)
+
+背不住的，差不多得了
+
+![image-20230213222204903](Oracle复习.assets/image-20230213222204903.png)
+
+##### 非预定义异常
+
+![image-20230213222241642](Oracle复习.assets/image-20230213222241642.png)
+
+多此一举
+
+pragma exception_init(异常名,-2291)
+
+![image-20230213222336327](Oracle复习.assets/image-20230213222336327.png)
+
+##### 用户自定义异常
+
+![image-20230213222650876](Oracle复习.assets/image-20230213222650876.png)
+
+自己抛异常，自己抓
+
+raise抛异常
+
+![image-20230213222733674](Oracle复习.assets/image-20230213222733674.png)
+
+### 触发器Trigger
+
+#### 触发器创建语法
+
+记得写replace
+
+![image-20230213223804251](Oracle复习.assets/image-20230213223804251.png)
+
+#### 语句级触发器
+
+![image-20230213232849353](Oracle复习.assets/image-20230213232849353.png)
+
+#### 行级触发器
+
+语句级触发器是指一条SQL语句触发一次；
+
+行级触发器是指一条SQL语句影响的每一行触发一次。
+
+行级触发器可以用  :old和 :new，语句级不能用
+
+![image-20230213233000391](Oracle复习.assets/image-20230213233000391.png)
+
+##### 使用 :old和 :new
+
+![image-20230213233051175](Oracle复习.assets/image-20230213233051175.png)
+
+![image-20230213233445959](Oracle复习.assets/image-20230213233445959.png)
+
+### 存储过程Procedure
+
+#### 创建过程
+
+记得写replace
+
+is和as基本没区别
+
+![image-20230213233713793](Oracle复习.assets/image-20230213233713793.png)
+
+#### 调用过程
+
+![image-20230213233821638](Oracle复习.assets/image-20230213233821638.png)
+
+#### 过程的形参
+
+![image-20230213234332979](Oracle复习.assets/image-20230213234332979.png)
+
+in或out写在变量名和变量类型之间
+
+##### 参数的缺省值 
+
+![image-20230213234537371](Oracle复习.assets/image-20230213234537371.png)
+
+default+默认值
+
+#### 创建函数
+
+函数有return，存储过程没有。
+
+![image-20230213234609998](Oracle复习.assets/image-20230213234609998.png)
+
+![image-20230213234757275](Oracle复习.assets/image-20230213234757275.png)
+
+#### 调用函数
+
+![image-20230213234832179](Oracle复习.assets/image-20230213234832179.png)
