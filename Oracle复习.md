@@ -321,6 +321,28 @@ constraint
 
 ![image-20230213215454327](Oracle复习.assets/image-20230213215454327.png)
 
+### 视图
+
+#### 视图
+
+![image-20230214135515334](Oracle复习.assets/image-20230214135515334.png)
+
+![image-20230214135541010](Oracle复习.assets/image-20230214135541010.png)
+
+#### 序列
+
+![image-20230214135921331](Oracle复习.assets/image-20230214135921331.png)
+
+![image-20230214140034274](Oracle复习.assets/image-20230214140034274.png)
+
+#### 索引
+
+![image-20230214140118281](Oracle复习.assets/image-20230214140118281.png)
+
+#### 同义词
+
+![image-20230214140221345](Oracle复习.assets/image-20230214140221345.png)
+
 ## 4.查询设计
 
 见单选题
@@ -442,6 +464,14 @@ case结构
 ##### 游标提取控制
 
 ![image-20230213221636467](Oracle复习.assets/image-20230213221636467.png)
+
+###### 游标提取BASIC LOOP
+
+![image-20230214135134132](Oracle复习.assets/image-20230214135134132.png)
+
+###### 游标提取WHILE LOOP
+
+![image-20230214135153177](Oracle复习.assets/image-20230214135153177.png)
 
 ###### 游标提取FOR LOOP
 
