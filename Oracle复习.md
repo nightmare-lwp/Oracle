@@ -343,6 +343,20 @@ constraint
 
 ![image-20230214140221345](Oracle复习.assets/image-20230214140221345.png)
 
+### DML
+
+#### insert
+
+![image-20230214142531908](Oracle复习.assets/image-20230214142531908.png)
+
+#### update
+
+![image-20230214142602855](Oracle复习.assets/image-20230214142602855.png)
+
+#### delete
+
+![image-20230214142632176](Oracle复习.assets/image-20230214142632176.png)
+
 ## 4.查询设计
 
 见单选题
